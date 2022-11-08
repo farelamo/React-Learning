@@ -29,6 +29,15 @@ export const getStaticProps = async () => {
   return {
     props: {
       users: data
-    }
+    },
+    revalidate: 1 
+    /*
+      ISR (Incremental Static Regeneration)
+      revalidate u/ men generate ulang halaman agar mendapatkan data yang terupdate
+      dengan valuenya berupa second, 1 pada revalidate adalah jeda 1 detik dalam men-regenerate
+
+      data baru akan terupdate setelah refresh browser 2x, hal ini karena setiap request akan meregenerate
+      sehingga saat pertama kali refresh akan generate ulang, dan yang ke 2 baru dapat updatenya
+    */
   }
 }
