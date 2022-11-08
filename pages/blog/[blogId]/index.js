@@ -1,17 +1,16 @@
 import { useRouter } from "next/router";
+import Link from "next/link";
 
 const blogId = ({blog}) => {
     console.log(blog)
     return (
         <div>
+            <h3>Id : {blog.id}</h3>
             <h3>Judul : {blog.title}</h3>
             <h3>Description : {blog.desc}</h3>
-            <h3>Comments : </h3>
-            {blog.comments.map((item) => {
-                <ul key={item.id}>
-                    <li>{item.comment}</li>
-                </ul>
-            })}
+            <Link href={`/blog/${blog.id}/comment`}>
+                <button>Comment</button>
+            </Link>
         </div>
     )
 }
@@ -19,7 +18,7 @@ const blogId = ({blog}) => {
 export default blogId
 
 export const getStaticPaths = async () => {
-    const response = await fetch(`http://localhost:5000/blogs`)
+    const response = await fetch(`http://localhost:5000/blogs?_limit=2`)
     const data     = await response.json()
 
     const paths = data.map((blog) => ({
@@ -28,7 +27,14 @@ export const getStaticPaths = async () => {
         }
     }))
 
-    return {paths, fallback: false}
+    return {
+        paths, 
+        fallback: false 
+        /* 
+            set false akan merubah not found karena data yang tdk masuk limit tdk digenerate,
+            walaupun di api datanya ada
+        */
+    }
 }
 
 export const getStaticProps = async ({params}) => {
