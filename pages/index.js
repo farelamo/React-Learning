@@ -21,8 +21,11 @@ export default function Home() {
         <Link href={'/'}>
           <h4>Home</h4>
         </Link>
-        <Link href={'/blog'}>
+        <Link href={'/blogs'}>
           <h4>Blog</h4>
+        </Link>
+        <Link href={'/comments'}>
+          <h4>Comment</h4>
         </Link>
       </div>
     </div>

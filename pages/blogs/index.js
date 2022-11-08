@@ -11,7 +11,7 @@ const index = ({blogs}) => {
                 <li>Judul  : { blog.title }</li>
                 <li>Active : { blog.isActive ? 'Aktif' : 'Tidak Aktif'}</li>
                 <li>
-                    <Link href={`/blog/${blog.id}`}>
+                    <Link href={`/blogs/${blog.id}`}>
                         <button>show</button>
                     </Link>
                 </li>
@@ -19,11 +19,8 @@ const index = ({blogs}) => {
         ))}
 
 
-        <Link href={'/blog/add'}>
+        <Link href={'/blogs/add'}>
           <h4>Add Blog</h4>
-        </Link>
-        <Link href={'/blog/1'}>
-          <h4>Detail Blog</h4>
         </Link>
     </div>
   )

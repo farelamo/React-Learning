@@ -5,8 +5,6 @@ const index = ({blog}) => {
             <h3>Judul : {blog.title}</h3>
             <h3>Description : </h3>
             {blog.desc}
-            <br></br>
-            {blog.comments[0].comment}
             <h3>Comment : </h3>
             {blog.comments.map((item, index) => {
                 return  ( 
@@ -36,11 +34,7 @@ export const getStaticPaths = async () => {
 
     return {
         paths,
-        fallback: 'blocking'
-        /* 
-            set blocking akan mengenerate ketika data nya tdk termasuk yang dilimit,
-            namun, akan ada delay ketika generate nya.
-        */
+        fallback: false
     }
 }
 

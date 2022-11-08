@@ -8,7 +8,7 @@ const blogId = ({blog}) => {
             <h3>Id : {blog.id}</h3>
             <h3>Judul : {blog.title}</h3>
             <h3>Description : {blog.desc}</h3>
-            <Link href={`/blog/${blog.id}/comment`}>
+            <Link href={`/blogs/${blog.id}/comment`}>
                 <button>Comment</button>
             </Link>
         </div>
