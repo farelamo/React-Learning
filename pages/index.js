@@ -27,6 +27,9 @@ export default function Home() {
         <Link href={'/comments'}>
           <h4>Comment</h4>
         </Link>
+        <Link href={'/users'}>
+          <h4>User</h4>
+        </Link>
       </div>
     </div>
   )

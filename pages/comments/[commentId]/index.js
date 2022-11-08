@@ -15,11 +15,13 @@ export const getStaticPaths = async () => {
     const response = await fetch('http://localhost:5001/comments?_limit=2')
     const data     = await response.json()
 
-    const paths = data.map((item) => ({
-        params: {
-            commentId: `${item.id}`
+    const paths = data.map((item) => {
+        return {
+            params: {
+                commentId: `${item.id}`
+            }
         }
-    }))
+    })
 
     return {
         paths,

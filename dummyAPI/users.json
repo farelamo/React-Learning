@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "isActive": true,
+      "age": 35,
+      "name": "Haley Mooney",
+      "gender": "male",
+      "email": "haleymooney@quility.com",
+      "phone": "+62 (827) 599-3670",
+      "address": "418 Ocean Court, Southview, Hawaii, 8530"
+    },
+    {
+      "id": 2,
+      "isActive": true,
+      "age": 31,
+      "name": "Cooley Jacobs",
+      "gender": "male",
+      "email": "cooleyjacobs@quility.com",
+      "phone": "+62 (987) 411-2695",
+      "address": "148 Croton Loop, Winston, Arizona, 2778"
+    },
+    {
+      "id": 3,
+      "isActive": false,
+      "age": 39,
+      "name": "Rowe Mack",
+      "gender": "male",
+      "email": "rowemack@quility.com",
+      "phone": "+62 (983) 521-2755",
+      "address": "905 Ocean Avenue, Golconda, Ohio, 5520"
+    }
+  ]
+}
