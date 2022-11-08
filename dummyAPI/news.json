@@ -1,0 +1,39 @@
+{
+  "news": [
+    {
+      "id": 1,
+      "title": "Duis sint officia culpa duis enim ex esse.",
+      "desc": "Aliquip dolore anim amet aliquip cillum reprehenderit elit in Lorem. Elit veniam ut consectetur excepteur et veniam ad sit commodo tempor officia nisi. Fugiat ipsum ullamco et labore ipsum ex magna sit proident consequat veniam deserunt. Pariatur eu in voluptate ex qui consequat.\r\n",
+      "isActive": true,
+      "creator": "Blanca Small"
+    },
+    {
+      "id": 2,
+      "title": "Qui occaecat incididunt laborum aliquip in.",
+      "desc": "Dolor nostrud laboris minim eiusmod do nulla quis magna commodo aliquip anim ut. Anim in officia commodo dolore deserunt anim aliqua nostrud. Officia nulla minim ipsum aute commodo. Aliquip voluptate irure sunt consectetur aliqua eiusmod aliqua laborum Lorem qui aute amet cupidatat. Exercitation laborum in amet esse cupidatat. Nisi enim commodo eiusmod velit duis adipisicing elit do sit commodo fugiat nostrud.\r\n",
+      "isActive": false,
+      "creator": "Wilkerson Dickerson"
+    },
+    {
+      "id": 3,
+      "title": "Sit ipsum nisi proident culpa sint sit proident minim aliquip deserunt enim deserunt.",
+      "desc": "Laboris cupidatat exercitation fugiat labore cillum adipisicing quis commodo. In eiusmod minim aliquip ipsum reprehenderit minim velit sint adipisicing velit dolor minim. Sint nostrud sint voluptate Lorem nostrud qui sunt quis reprehenderit amet qui. Exercitation consequat ut labore ullamco eu voluptate tempor proident aliqua nostrud occaecat voluptate nisi culpa. Exercitation incididunt voluptate minim occaecat consectetur proident dolor in. Consectetur deserunt id officia reprehenderit officia ut eu elit est non. Et anim consectetur amet commodo velit sunt fugiat.\r\n",
+      "isActive": true,
+      "creator": "Copeland Nelson"
+    },
+    {
+      "id": 4,
+      "title": "Tempor adipisicing est fugiat velit qui exercitation exercitation officia pariatur in et cupidatat.",
+      "desc": "Nostrud voluptate minim non ad irure id non incididunt. Pariatur qui sit sit non in consequat proident enim nostrud. Duis amet fugiat irure nulla sint est. Consectetur et ut do ad amet laboris. Enim officia nisi fugiat ad sint ut quis officia reprehenderit laboris.\r\n",
+      "isActive": true,
+      "creator": "TIHAA Hunter"
+    },
+    {
+      "id": 5,
+      "title": "Eiusmod Lorem quis Lorem irure occaecat.",
+      "desc": "Ipsum ipsum anim fugiat aliqua excepteur. Ipsum ad quis amet deserunt pariatur laboris deserunt. Consequat amet pariatur elit magna ut esse. Sint aute cillum fugiat consectetur magna proident do voluptate. Eu reprehenderit aute veniam aliqua non irure reprehenderit culpa culpa nulla nisi eu commodo id.\r\n",
+      "isActive": true,
+      "creator": "Marquita Barr"
+    }
+  ]
+}

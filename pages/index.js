@@ -21,6 +21,9 @@ export default function Home() {
         <Link href={'/'}>
           <h4>Home</h4>
         </Link>
+        <Link href={'/news'}>
+          <h4>News</h4>
+        </Link>
         <Link href={'/blogs'}>
           <h4>Blog</h4>
         </Link>
