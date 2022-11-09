@@ -1,13 +1,9 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import Link from 'next/link'
-import NavbarLists from './component/NavbarLists'
-import CarouselHome from './component/CarouselHome'
 
 export default function Home() {
   return (
     <>
-      <NavbarLists />
       <div className={styles.container}>
         <Head>
           <title>Create Next App</title>
@@ -16,9 +12,10 @@ export default function Home() {
         </Head>
 
         <main className={styles.main}>
-          <h1 className={styles.title}>
-            Hi, <a href={'/'}>Selamat Belajar</a>
+          <h1 className="text-4xl text-red-500 underline font-bold">
+            Hello world!
           </h1>
+          <button className="btn btn-primary">Test</button>
         </main>
 
         {/* <div id='menus'>
