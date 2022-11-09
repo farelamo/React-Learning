@@ -17,24 +17,6 @@ export default function Home() {
           </h1>
           <button className="btn btn-primary">Test</button>
         </main>
-
-        {/* <div id='menus'>
-          <Link href={'/'}>
-            <h4>Home</h4>
-          </Link>
-          <Link href={'/news'}>
-            <h4>News</h4>
-          </Link>
-          <Link href={'/blogs'}>
-            <h4>Blog</h4>
-          </Link>
-          <Link href={'/comments'}>
-            <h4>Comment</h4>
-          </Link>
-          <Link href={'/users'}>
-            <h4>User</h4>
-          </Link>
-        </div> */}
       </div>
     </>
   )
