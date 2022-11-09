@@ -21,6 +21,9 @@ export default function Home() {
             <Link href={`/users`}>
               <p className="mx-4 text-lg border-b-2 border-transparent hover:border-b-2 hover:border-indigo-300 transition duration-500">Users</p>
             </Link>
+            <Link href={`/category`}>
+              <p className="mx-4 text-lg border-b-2 border-transparent hover:border-b-2 hover:border-indigo-300 transition duration-500">Category</p>
+            </Link>
           </div>
           <div id="nav-open" className="p-4 md:hidden">
             <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="feather feather-menu">
