@@ -1,0 +1,175 @@
+{
+  "blogs": [
+    {
+      "id": "1",
+      "title": "Deserunt dolore nostrud velit mollit sunt non reprehenderit enim enim laboris ullamco pariatur.",
+      "desc": "Elit irure laborum aute dolor proident aute cillum. Anim velit ipsum nulla voluptate. Cupidatat quis amet velit non culpa veniam anim duis deserunt proident eiusmod. Dolore sunt nostrud cillum ut est esse pariatur adipisicing laboris dolor laborum minim consequat amet. Aliqua cupidatat ad nulla eu laboris occaecat do mollit duis. Sint ipsum magna dolore adipisicing eu irure ea elit adipisicing qui nostrud. Ad aute cupidatat anim culpa adipisicing reprehenderit sit dolore.\r\n",
+      "isActive": true,
+      "comments": [
+        {
+          "id": "1",
+          "comment": "Cupidatat ex"
+        },
+        {
+          "id": "2",
+          "comment": "Qui sint enim"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Enim dolore eu culpa nulla ut in sit aliqua dolor reprehenderit.",
+      "desc": "Nulla occaecat duis Lorem cillum nisi aute consectetur aute qui anim. Laboris ut proident aliquip voluptate ipsum veniam pariatur aliqua anim tempor qui culpa do in. Minim est aute officia dolor excepteur deserunt reprehenderit.\r\n",
+      "isActive": true,
+      "comments": [
+        {
+          "id": "2",
+          "comment": "Qui sint enim"
+        },
+        {
+          "id": "3",
+          "comment": "eu eiusmod"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Aliquip cillum nulla labore non exercitation anim.",
+      "desc": "Sit nostrud exercitation tempor sunt veniam amet do quis magna elit. Est labore dolore ipsum magna est elit aliquip. Velit deserunt irure consequat deserunt et. Excepteur sit nostrud labore consequat ipsum magna qui exercitation irure dolor. Occaecat tempor elit eu eu exercitation nisi non et culpa incididunt duis esse.\r\n",
+      "isActive": true,
+      "comments": [
+        {
+          "id": "3",
+          "comment": "eu eiusmod"
+        },
+        {
+          "id": "4",
+          "comment": "irure nisi"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Aliqua voluptate ipsum voluptate aute sint minim eu excepteur aliquip Lorem tempor nisi duis do.",
+      "desc": "Exercitation pariatur culpa cillum minim duis do consequat anim. Aliquip nulla laborum dolore duis sit magna ullamco. Nisi occaecat adipisicing sint aliqua enim. Esse dolor sit ullamco anim fugiat. Dolor incididunt ex laborum incididunt sunt et eu dolore veniam ut. Non nostrud ipsum cupidatat id cupidatat ipsum officia tempor nulla eiusmod ipsum id sit non. Aliqua minim minim eu proident nisi ex excepteur pariatur consectetur excepteur.\r\n",
+      "isActive": false,
+      "comments": [
+        {
+          "id": "4",
+          "comment": "irure nisi"
+        },
+        {
+          "id": "5",
+          "comment": "ut velit"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Et nostrud sunt est sint quis cillum ea irure.",
+      "desc": "Anim consequat consectetur magna nulla irure. Elit deserunt adipisicing id mollit consequat laboris culpa consectetur velit quis ipsum. Incididunt cupidatat culpa ut sunt fugiat. Cillum amet tempor qui commodo nisi reprehenderit dolore. Nisi irure nostrud do dolore ut esse cupidatat nisi. Deserunt ut eu incididunt veniam fugiat elit ipsum dolore incididunt. Commodo adipisicing duis et minim non eiusmod non reprehenderit ullamco adipisicing veniam.\r\n",
+      "isActive": false,
+      "comments": [
+        {
+          "id": "5",
+          "comment": "ut velit"
+        },
+        {
+          "id": "1",
+          "comment": "nulla sint"
+        }
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "comment": "Cupidatat ex"
+    },
+    {
+      "id": "2",
+      "comment": "Qui sint enim"
+    },
+    {
+      "id": "3",
+      "comment": "eu eiusmod"
+    },
+    {
+      "id": "4",
+      "comment": "irure nisi"
+    },
+    {
+      "id": "5",
+      "comment": "ut velit"
+    }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "title": "Duis sint officia culpa duis enim ex esse.",
+      "desc": "Aliquip dolore anim amet aliquip cillum reprehenderit elit in Lorem. Elit veniam ut consectetur excepteur et veniam ad sit commodo tempor officia nisi. Fugiat ipsum ullamco et labore ipsum ex magna sit proident consequat veniam deserunt. Pariatur eu in voluptate ex qui consequat.\r\n",
+      "isActive": true,
+      "creator": "Blanca Small"
+    },
+    {
+      "id": 2,
+      "title": "Qui occaecat incididunt laborum aliquip in.",
+      "desc": "Dolor nostrud laboris minim eiusmod do nulla quis magna commodo aliquip anim ut. Anim in officia commodo dolore deserunt anim aliqua nostrud. Officia nulla minim ipsum aute commodo. Aliquip voluptate irure sunt consectetur aliqua eiusmod aliqua laborum Lorem qui aute amet cupidatat. Exercitation laborum in amet esse cupidatat. Nisi enim commodo eiusmod velit duis adipisicing elit do sit commodo fugiat nostrud.\r\n",
+      "isActive": false,
+      "creator": "Wilkerson Dickerson"
+    },
+    {
+      "id": 3,
+      "title": "Sit ipsum nisi proident culpa sint sit proident minim aliquip deserunt enim deserunt.",
+      "desc": "Laboris cupidatat exercitation fugiat labore cillum adipisicing quis commodo. In eiusmod minim aliquip ipsum reprehenderit minim velit sint adipisicing velit dolor minim. Sint nostrud sint voluptate Lorem nostrud qui sunt quis reprehenderit amet qui. Exercitation consequat ut labore ullamco eu voluptate tempor proident aliqua nostrud occaecat voluptate nisi culpa. Exercitation incididunt voluptate minim occaecat consectetur proident dolor in. Consectetur deserunt id officia reprehenderit officia ut eu elit est non. Et anim consectetur amet commodo velit sunt fugiat.\r\n",
+      "isActive": true,
+      "creator": "Copeland Nelson"
+    },
+    {
+      "id": 4,
+      "title": "Tempor adipisicing est fugiat velit qui exercitation exercitation officia pariatur in et cupidatat.",
+      "desc": "Nostrud voluptate minim non ad irure id non incididunt. Pariatur qui sit sit non in consequat proident enim nostrud. Duis amet fugiat irure nulla sint est. Consectetur et ut do ad amet laboris. Enim officia nisi fugiat ad sint ut quis officia reprehenderit laboris.\r\n",
+      "isActive": true,
+      "creator": "TIHAA Hunter"
+    },
+    {
+      "id": 5,
+      "title": "Eiusmod Lorem quis Lorem irure occaecat.",
+      "desc": "Ipsum ipsum anim fugiat aliqua excepteur. Ipsum ad quis amet deserunt pariatur laboris deserunt. Consequat amet pariatur elit magna ut esse. Sint aute cillum fugiat consectetur magna proident do voluptate. Eu reprehenderit aute veniam aliqua non irure reprehenderit culpa culpa nulla nisi eu commodo id.\r\n",
+      "isActive": true,
+      "creator": "Marquita Barr"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "isActive": true,
+      "age": 35,
+      "name": "Haley Mooney",
+      "gender": "male",
+      "email": "haleymooney@quility.com",
+      "phone": "+62 (827) 599-3670",
+      "address": "418 Ocean Court, Southview, Hawaii, 8530"
+    },
+    {
+      "id": 2,
+      "isActive": true,
+      "age": 31,
+      "name": "Cooley HALO",
+      "gender": "male",
+      "email": "cooleyjacobs@quility.com",
+      "phone": "+62 (987) 411-2695",
+      "address": "148 Croton Loop, Winston, Arizona, 2778"
+    },
+    {
+      "id": 3,
+      "isActive": false,
+      "age": 39,
+      "name": "Rowe Anjay",
+      "gender": "male",
+      "email": "rowemack@quility.com",
+      "phone": "+62 (983) 521-2755",
+      "address": "905 Ocean Avenue, Golconda, Ohio, 5520"
+    }
+  ]
+}
