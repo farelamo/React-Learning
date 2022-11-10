@@ -171,5 +171,77 @@
       "phone": "+62 (983) 521-2755",
       "address": "905 Ocean Avenue, Golconda, Ohio, 5520"
     }
+  ],
+  "category": [
+    {
+        "id": "1",
+        "name": "Sport",
+        "isActive": true
+    },
+    {
+        "id": "2",
+        "name": "Kids",
+        "isActive": true
+    },
+    {
+        "id": "3",
+        "name": "Fashion",
+        "isActive": true
+    },
+    {
+        "id": "4",
+        "name": "Entertainment",
+        "isActive": true
+    },
+    {
+        "id": "5",
+        "name": "Education",
+        "isActive": true
+    },
+    {
+        "id": "6",
+        "name": "Health",
+        "isActive": true
+    },
+    {
+        "id": "7",
+        "name": "Politics",
+        "isActive": true
+    },
+    {
+        "id": "8",
+        "name": "Social",
+        "isActive": true
+    }
+  ],
+  "health": [
+    {
+        "id": "1",
+        "title": "Transformasi Pengelolaan Dana BOS Dinilai Bikin Penyaluran Lebih Optimal",
+        "desc": "Program dana bantuan operasional sekolah atau biasa disebut dengan Dana BOS mengalami transformasi besar sejak tahun 2020. Langkah transformasi ini diluncurkan oleh Menteri Pendidikan, Kebudayaan, Riset, dan Teknologi (Mendikbudristek) Nadiem Anwar Makarim sebagai Merdeka Belajar episode ketiga.",
+        "author": "Jihaan Khoirunnisa",
+        "date": "9 November 2022"
+    },
+    {
+        "id": "2",
+        "title": "Bolehkah Fresh Graduate Mendaftar PPPK Guru 2022? Ini Ketentuannya",
+        "desc":  "Seleksi PPPK Guru 2022 sudah dibuka hingga 13 November mendatang. Bolehkah fresh graduate mendaftar? Seperti diketahui, seleksi Pegawai Pemerintah dengan Perjanjian Kerja (PPPK) guru ditujukan untuk guru yang kemudian berstatus Aparatur Sipil Negara (ASN). Dalam seleksi PPPK guru tahun 2022, pelamar menjadi tiga kategori prioritas.",
+        "author": "Nikita Rosa",
+        "date": "9 November 2022"
+    },
+    {
+        "id": "3",
+        "title": "7 Guru Besar Unhas Ramai-ramai Mundur, Apa Sebabnya?",
+        "desc": "Tujuh guru besar Fakultas Ekonomi dan Bisnis (FEB) Universitas Hasanuddin ramai-ramai mengundurkan diri. Hal ini diduga disebabkan oleh kebijakan dekan fakultas.",
+        "author": "Novia Aisyah",
+        "date": "3 November 2022"
+    },
+    {
+        "id": "4",
+        "title": "Buntut Video Viral Intimidasi Mahasiswa Senior, Rektor Unand Tegaskan Hal Ini",
+        "desc": "Belum lama ini viral sebuah video dugaan intimidasi dari mahasiswa senior/pembina asrama kepada penghuni asrama putri Universitas Andalas (Unand). Dalam video yang beredar, senior memerintahkan mahasiswi untuk memotong celana karena dianggap menyalahi aturan.",
+        "author": "Fahri Zulfikar",
+        "date": "1 November 2022"
+    }
   ]
 }
