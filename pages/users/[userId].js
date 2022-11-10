@@ -24,7 +24,7 @@ const userId = ({user}) => {
 export default userId
 
 export const getStaticPaths = async () => {
-    const response = await fetch('http://localhost:5002/users?_limit=2')
+    const response = await fetch('http://localhost:5000/users?_limit=2')
     const data     = await response.json()
 
     const paths = data.map((item) => {
@@ -42,7 +42,7 @@ export const getStaticPaths = async () => {
 }
 
 export const getStaticProps = async ({params}) => {
-    const response = await fetch(`http://localhost:5002/users/${params.userId}`)
+    const response = await fetch(`http://localhost:5000/users/${params.userId}`)
     const data     = await response.json()
 
     if(!data.id){

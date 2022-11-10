@@ -24,7 +24,7 @@ const index = ({comments}) => {
 export default index
 
 export const getStaticProps = async () => {
-    const response = await fetch('http://localhost:5001/comments')
+    const response = await fetch('http://localhost:5000/comments')
     const data     = await response.json()
 
     return {

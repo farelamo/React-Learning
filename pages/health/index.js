@@ -5,7 +5,7 @@ const index = () => {
 
     useEffect(() => {
         const getHealth = async () => {
-            const response = await fetch('http://localhost:5005/health')
+            const response = await fetch('http://localhost:5000/health')
             const data = await response.json();
             setHealth(data);
         }

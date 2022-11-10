@@ -23,7 +23,7 @@ const index = ({ users }) => {
 export default index
 
 export const getStaticProps = async () => {
-  const response  = await fetch('http://localhost:5002/users')
+  const response  = await fetch('http://localhost:5000/users')
   const data      = await response.json()
 
   return {

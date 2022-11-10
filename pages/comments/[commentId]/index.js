@@ -12,7 +12,7 @@ const index = ({comment}) => {
 export default index
 
 export const getStaticPaths = async () => {
-    const response = await fetch('http://localhost:5001/comments?_limit=2')
+    const response = await fetch('http://localhost:5000/comments?_limit=2')
     const data     = await response.json()
 
     const paths = data.map((item) => {
@@ -34,7 +34,7 @@ export const getStaticPaths = async () => {
 }
 
 export const getStaticProps = async ({params}) => {
-    const response = await fetch(`http://localhost:5001/comments/${params.commentId}`)
+    const response = await fetch(`http://localhost:5000/comments/${params.commentId}`)
     const data     = await response.json()
 
     if(!data.id){

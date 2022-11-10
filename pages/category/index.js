@@ -60,7 +60,7 @@ export default index
 
 // SSR
 export const getServerSideProps = async () => {
-    const response  = await fetch('http://localhost:5004/category')
+    const response  = await fetch('http://localhost:5000/category')
     const data      = await response.json()
     console.log(data)
     return {

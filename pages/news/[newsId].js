@@ -15,7 +15,7 @@ const newsId = ({ news }) => {
 export default newsId
 
 export const getServerSideProps = async ({ params }) => {
-    const response = await fetch(`http://localhost:5003/news/${params.newsId}`)
+    const response = await fetch(`http://localhost:5000/news/${params.newsId}`)
     const data = await response.json()
 
     if (!data.id) {

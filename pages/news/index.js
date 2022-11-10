@@ -22,7 +22,7 @@ const index = ({news}) => {
 export default index
 
 export const getServerSideProps = async () => {
-    const response = await fetch('http://localhost:5003/news')
+    const response = await fetch('http://localhost:5000/news')
     const data     = await response.json()
 
     return {
